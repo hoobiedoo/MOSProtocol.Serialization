@@ -1,4 +1,12 @@
-﻿using OSM.MOSProtocol.Serialization;
+//------------------------------------------------------------------------------
+//     2/25/2011
+//     This code was authored by Robb J. Regan 
+//     
+//     It asserts the deserialization and serialization of ALL the current MOS 
+//     Profiles.  It is split up by NCS and MOS generated messages and relies on 
+//     the messages found in the TestMessages directory.
+//------------------------------------------------------------------------------
+using OSM.MOSProtocol.Serialization;
 using System;
 using System.IO;
 using System.Text;
