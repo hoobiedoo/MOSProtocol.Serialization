@@ -1,0 +1,17 @@
+<mos>
+<mosID>MOS283.MOS</mosID>
+<ncsID>MOS283.NCS</ncsID>
+<messageID>16</messageID>
+<roElementAction operation="REPLACE"><roID>DEMOENPS50VPC;P_OSM\W;AADC7235-007A-4317-BE112095DF74356A</roID>
+<element_target>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;B703C725-10F6-4883-805BAD0C93B54D03</storyID>
+</element_target>
+<element_source>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;B703C725-10F6-4883-805BAD0C93B54D03</storyID>
+<storySlug>Rename story slug</storySlug>
+<storyNum></storyNum>
+</story>
+</element_source>
+</roElementAction>
+</mos>

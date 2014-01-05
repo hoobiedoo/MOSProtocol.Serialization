@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9602478C-B191-4261-A0FE-358B899DFDA2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OSM.Core.MOS.Protocol</RootNamespace>
+    <AssemblyName>OSM.Core.MOS.Protocol</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>%24/VideoTransformation/IP Delivery/Trunk/src/MOS/OSM.MOSProtocol.Messages</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>http://ctcitfs.ap.org:8080/tfs/vap</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\OSM.Core.MOS.Protocol.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\OSM.Core.MOS.Protocol.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\OSM.Core.MOS.Protocol.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\OSM.Core.MOS.Protocol.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '64bit|AnyCPU'">
+    <OutputPath>bin\64bit\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\OSM.Core.MOS.Protocol.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '64bit|x64'">
+    <OutputPath>bin\x64\64bit\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\OSM.Core.MOS.Protocol.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '64bit|x86'">
+    <OutputPath>bin\x86\64bit\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\OSM.Core.MOS.Protocol.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MOS_2_5\b.cs" />
+    <Compile Include="MOS_2_5\description.cs" />
+    <Compile Include="MOS_2_5\heartbeat.cs" />
+    <Compile Include="MOS_2_5\i.cs" />
+    <Compile Include="MOS_2_5\item.cs" />
+    <Compile Include="MOS_2_5\list.cs" />
+    <Compile Include="MOS_2_5\listMachInfo.cs" />
+    <Compile Include="MOS_2_5\mos.cs" />
+    <Compile Include="MOS_2_5\mosAck.cs" />
+    <Compile Include="MOS_2_5\mosEnumerators.cs" />
+    <Compile Include="MOS_2_5\mosListAll.cs" />
+    <Compile Include="MOS_2_5\mosObj.cs" />
+    <Compile Include="MOS_2_5\mosObjCreate.cs" />
+    <Compile Include="MOS_2_5\mosReqAll.cs" />
+    <Compile Include="MOS_2_5\mosReqObj.cs" />
+    <Compile Include="MOS_2_5\objType.cs" />
+    <Compile Include="MOS_2_5\p.cs" />
+    <Compile Include="MOS_2_5\pi.cs" />
+    <Compile Include="MOS_2_5\pkg.cs" />
+    <Compile Include="MOS_2_5\reqMachInfo.cs" />
+    <Compile Include="MOS_2_5\roAck.cs" />
+    <Compile Include="MOS_2_5\roCreate.cs" />
+    <Compile Include="MOS_2_5\roCtrl.cs" />
+    <Compile Include="MOS_2_5\roDelete.cs" />
+    <Compile Include="MOS_2_5\roItemCue.cs" />
+    <Compile Include="MOS_2_5\roItemStat.cs" />
+    <Compile Include="MOS_2_5\roList.cs" />
+    <Compile Include="MOS_2_5\roListAll.cs" />
+    <Compile Include="MOS_2_5\roReadyToAir.cs" />
+    <Compile Include="MOS_2_5\roReplace.cs" />
+    <Compile Include="MOS_2_5\roReq.cs" />
+    <Compile Include="MOS_2_5\roReqAll.cs" />
+    <Compile Include="MOS_2_5\roStat.cs" />
+    <Compile Include="MOS_2_5\roStoryAppend.cs" />
+    <Compile Include="MOS_2_5\roStoryDelete.cs" />
+    <Compile Include="MOS_2_5\roStoryInsert.cs" />
+    <Compile Include="MOS_2_5\roStoryMoveMultiple.cs" />
+    <Compile Include="MOS_2_5\roStoryReplace.cs" />
+    <Compile Include="MOS_2_5\roStorySend.cs" />
+    <Compile Include="MOS_2_5\roStorySwap.cs" />
+    <Compile Include="MOS_2_5\software.cs" />
+    <Compile Include="MOS_2_5\story.cs" />
+    <Compile Include="MOS_2_5\storyBody.cs" />
+    <Compile Include="MOS_2_5\storyItem.cs" />
+    <Compile Include="MOS_2_5\u.cs" />
+    <Compile Include="MOS_2_6\b.cs" />
+    <Compile Include="MOS_2_6\description.cs" />
+    <Compile Include="MOS_2_6\heartbeat.cs" />
+    <Compile Include="MOS_2_6\i.cs" />
+    <Compile Include="MOS_2_6\item.cs" />
+    <Compile Include="MOS_2_6\list.cs" />
+    <Compile Include="MOS_2_6\listMachInfo.cs" />
+    <Compile Include="MOS_2_6\mos.cs" />
+    <Compile Include="MOS_2_6\mosAck.cs" />
+    <Compile Include="MOS_2_6\mosEnumerators.cs" />
+    <Compile Include="MOS_2_6\mosExternalMetadata.cs" />
+    <Compile Include="MOS_2_6\mosItemReplace.cs" />
+    <Compile Include="MOS_2_6\mosListAll.cs" />
+    <Compile Include="MOS_2_6\mosObj.cs" />
+    <Compile Include="MOS_2_6\mosObjCreate.cs" />
+    <Compile Include="MOS_2_6\mosObjList.cs" />
+    <Compile Include="MOS_2_6\mosReqAll.cs" />
+    <Compile Include="MOS_2_6\mosReqObj.cs" />
+    <Compile Include="MOS_2_6\objType.cs" />
+    <Compile Include="MOS_2_6\p.cs" />
+    <Compile Include="MOS_2_6\pi.cs" />
+    <Compile Include="MOS_2_6\pkg.cs" />
+    <Compile Include="MOS_2_6\reqMachInfo.cs" />
+    <Compile Include="MOS_2_6\ro.cs" />
+    <Compile Include="MOS_2_6\roAck.cs" />
+    <Compile Include="MOS_2_6\roCreate.cs" />
+    <Compile Include="MOS_2_6\roCtrl.cs" />
+    <Compile Include="MOS_2_6\roDelete.cs" />
+    <Compile Include="MOS_2_6\roItemCue.cs" />
+    <Compile Include="MOS_2_6\roItemStat.cs" />
+    <Compile Include="MOS_2_6\roList.cs" />
+    <Compile Include="MOS_2_6\roListAll.cs" />
+    <Compile Include="MOS_2_6\roMetadataReplace.cs" />
+    <Compile Include="MOS_2_6\roReadyToAir.cs" />
+    <Compile Include="MOS_2_6\roReplace.cs" />
+    <Compile Include="MOS_2_6\roReq.cs" />
+    <Compile Include="MOS_2_6\roReqAll.cs" />
+    <Compile Include="MOS_2_6\roStat.cs" />
+    <Compile Include="MOS_2_6\roStoryAppend.cs" />
+    <Compile Include="MOS_2_6\roStoryDelete.cs" />
+    <Compile Include="MOS_2_6\roStoryInsert.cs" />
+    <Compile Include="MOS_2_6\roStoryMove.cs" />
+    <Compile Include="MOS_2_6\roStoryMoveMultiple.cs" />
+    <Compile Include="MOS_2_6\roStoryReplace.cs" />
+    <Compile Include="MOS_2_6\roStorySend.cs" />
+    <Compile Include="MOS_2_6\roStorySwap.cs" />
+    <Compile Include="MOS_2_6\software.cs" />
+    <Compile Include="MOS_2_6\story.cs" />
+    <Compile Include="MOS_2_6\storyBody.cs" />
+    <Compile Include="MOS_2_6\storyItem.cs" />
+    <Compile Include="MOS_2_6\u.cs" />
+    <Compile Include="MOS_2_8\b.cs" />
+    <Compile Include="MOS_2_8\defaultActiveX.cs" />
+    <Compile Include="MOS_2_8\description.cs" />
+    <Compile Include="MOS_2_8\element_source.cs" />
+    <Compile Include="MOS_2_8\element_target.cs" />
+    <Compile Include="MOS_2_8\heartbeat.cs" />
+    <Compile Include="MOS_2_8\i.cs" />
+    <Compile Include="MOS_2_8\item.cs" />
+    <Compile Include="MOS_2_8\list.cs" />
+    <Compile Include="MOS_2_8\listMachInfo.cs" />
+    <Compile Include="MOS_2_8\mos.cs" />
+    <Compile Include="MOS_2_8\mosAck.cs" />
+    <Compile Include="MOS_2_8\mosEnumerators.cs" />
+    <Compile Include="MOS_2_8\mosExternalMetadata.cs" />
+    <Compile Include="MOS_2_8\mosItemReplace.cs" />
+    <Compile Include="MOS_2_8\mosListAll.cs" />
+    <Compile Include="MOS_2_8\mosObj.cs" />
+    <Compile Include="MOS_2_8\mosObjCreate.cs" />
+    <Compile Include="MOS_2_8\mosReqAll.cs" />
+    <Compile Include="MOS_2_8\mosReqObj.cs" />
+    <Compile Include="MOS_2_8\ncsAck.cs" />
+    <Compile Include="MOS_2_8\ncsAppInfo.cs" />
+    <Compile Include="MOS_2_8\ncsItem.cs" />
+    <Compile Include="MOS_2_8\ncsItemRequest.cs" />
+    <Compile Include="MOS_2_8\ncsReqAppClose.cs" />
+    <Compile Include="MOS_2_8\ncsReqAppInfo.cs" />
+    <Compile Include="MOS_2_8\ncsReqAppMode.cs" />
+    <Compile Include="MOS_2_8\ncsStoryRequest.cs" />
+    <Compile Include="MOS_2_8\objType.cs" />
+    <Compile Include="MOS_2_8\p.cs" />
+    <Compile Include="MOS_2_8\pi.cs" />
+    <Compile Include="MOS_2_8\pkg.cs" />
+    <Compile Include="MOS_2_8\reqMachInfo.cs" />
+    <Compile Include="MOS_2_8\ro.cs" />
+    <Compile Include="MOS_2_8\roAck.cs" />
+    <Compile Include="MOS_2_8\roCreate.cs" />
+    <Compile Include="MOS_2_8\roCtrl.cs" />
+    <Compile Include="MOS_2_8\roDelete.cs" />
+    <Compile Include="MOS_2_8\roElementAction.cs" />
+    <Compile Include="MOS_2_8\roItemCue.cs" />
+    <Compile Include="MOS_2_8\roItemDelete.cs" />
+    <Compile Include="MOS_2_8\roItemInsert.cs" />
+    <Compile Include="MOS_2_8\roItemMoveMultiple.cs" />
+    <Compile Include="MOS_2_8\roItemReplace.cs" />
+    <Compile Include="MOS_2_8\roItemStat.cs" />
+    <Compile Include="MOS_2_8\roList.cs" />
+    <Compile Include="MOS_2_8\roListAll.cs" />
+    <Compile Include="MOS_2_8\roMetadataReplace.cs" />
+    <Compile Include="MOS_2_8\roReadyToAir.cs" />
+    <Compile Include="MOS_2_8\roReplace.cs" />
+    <Compile Include="MOS_2_8\roReq.cs" />
+    <Compile Include="MOS_2_8\roReqAll.cs" />
+    <Compile Include="MOS_2_8\roStat.cs" />
+    <Compile Include="MOS_2_8\roStoryAppend.cs" />
+    <Compile Include="MOS_2_8\roStoryDelete.cs" />
+    <Compile Include="MOS_2_8\roStoryInsert.cs" />
+    <Compile Include="MOS_2_8\roStoryMove.cs" />
+    <Compile Include="MOS_2_8\roStoryMoveMultiple.cs" />
+    <Compile Include="MOS_2_8\roStoryReplace.cs" />
+    <Compile Include="MOS_2_8\roStorySend.cs" />
+    <Compile Include="MOS_2_8\roStorySwap.cs" />
+    <Compile Include="MOS_2_8\software.cs" />
+    <Compile Include="MOS_2_8\story.cs" />
+    <Compile Include="MOS_2_8\storyBody.cs" />
+    <Compile Include="MOS_2_8\storyItem.cs" />
+    <Compile Include="MOS_2_8\u.cs" />
+    <Compile Include="MOS_2_8_1\b.cs" />
+    <Compile Include="MOS_2_8_1\defaultActiveX.cs" />
+    <Compile Include="MOS_2_8_1\description.cs" />
+    <Compile Include="MOS_2_8_1\element_source.cs" />
+    <Compile Include="MOS_2_8_1\element_target.cs" />
+    <Compile Include="MOS_2_8_1\heartbeat.cs" />
+    <Compile Include="MOS_2_8_1\i.cs" />
+    <Compile Include="MOS_2_8_1\item.cs" />
+    <Compile Include="MOS_2_8_1\list.cs" />
+    <Compile Include="MOS_2_8_1\listMachInfo.cs" />
+    <Compile Include="MOS_2_8_1\mos.cs" />
+    <Compile Include="MOS_2_8_1\mosAck.cs" />
+    <Compile Include="MOS_2_8_1\mosEnumerators.cs" />
+    <Compile Include="MOS_2_8_1\mosExternalMetadata.cs" />
+    <Compile Include="MOS_2_8_1\mosItemReplace.cs" />
+    <Compile Include="MOS_2_8_1\mosListAll.cs" />
+    <Compile Include="MOS_2_8_1\mosListSearchableSchema.cs" />
+    <Compile Include="MOS_2_8_1\mosObj.cs" />
+    <Compile Include="MOS_2_8_1\mosObjCreate.cs" />
+    <Compile Include="MOS_2_8_1\mosObjList.cs" />
+    <Compile Include="MOS_2_8_1\mosReqAll.cs" />
+    <Compile Include="MOS_2_8_1\mosReqObj.cs" />
+    <Compile Include="MOS_2_8_1\mosReqObjAction.cs" />
+    <Compile Include="MOS_2_8_1\mosReqObjList.cs" />
+    <Compile Include="MOS_2_8_1\mosReqSearchableSchema.cs" />
+    <Compile Include="MOS_2_8_1\ncsAck.cs" />
+    <Compile Include="MOS_2_8_1\ncsAppInfo.cs" />
+    <Compile Include="MOS_2_8_1\ncsItem.cs" />
+    <Compile Include="MOS_2_8_1\ncsItemRequest.cs" />
+    <Compile Include="MOS_2_8_1\ncsReqAppClose.cs" />
+    <Compile Include="MOS_2_8_1\ncsReqAppInfo.cs" />
+    <Compile Include="MOS_2_8_1\ncsReqAppMode.cs" />
+    <Compile Include="MOS_2_8_1\ncsStoryRequest.cs" />
+    <Compile Include="MOS_2_8_1\objType.cs" />
+    <Compile Include="MOS_2_8_1\p.cs" />
+    <Compile Include="MOS_2_8_1\pi.cs" />
+    <Compile Include="MOS_2_8_1\pkg.cs" />
+    <Compile Include="MOS_2_8_1\reqMachInfo.cs" />
+    <Compile Include="MOS_2_8_1\ro.cs" />
+    <Compile Include="MOS_2_8_1\roAck.cs" />
+    <Compile Include="MOS_2_8_1\roCreate.cs" />
+    <Compile Include="MOS_2_8_1\roCtrl.cs" />
+    <Compile Include="MOS_2_8_1\roDelete.cs" />
+    <Compile Include="MOS_2_8_1\roElementAction.cs" />
+    <Compile Include="MOS_2_8_1\roItemCue.cs" />
+    <Compile Include="MOS_2_8_1\roItemDelete.cs" />
+    <Compile Include="MOS_2_8_1\roItemInsert.cs" />
+    <Compile Include="MOS_2_8_1\roItemMoveMultiple.cs" />
+    <Compile Include="MOS_2_8_1\roItemReplace.cs" />
+    <Compile Include="MOS_2_8_1\roItemStat.cs" />
+    <Compile Include="MOS_2_8_1\roList.cs" />
+    <Compile Include="MOS_2_8_1\roListAll.cs" />
+    <Compile Include="MOS_2_8_1\roMetadataReplace.cs" />
+    <Compile Include="MOS_2_8_1\roReadyToAir.cs" />
+    <Compile Include="MOS_2_8_1\roReplace.cs" />
+    <Compile Include="MOS_2_8_1\roReq.cs" />
+    <Compile Include="MOS_2_8_1\roReqAll.cs" />
+    <Compile Include="MOS_2_8_1\roStat.cs" />
+    <Compile Include="MOS_2_8_1\roStoryAppend.cs" />
+    <Compile Include="MOS_2_8_1\roStoryDelete.cs" />
+    <Compile Include="MOS_2_8_1\roStoryInsert.cs" />
+    <Compile Include="MOS_2_8_1\roStoryMove.cs" />
+    <Compile Include="MOS_2_8_1\roStoryMoveMultiple.cs" />
+    <Compile Include="MOS_2_8_1\roStoryReplace.cs" />
+    <Compile Include="MOS_2_8_1\roStorySend.cs" />
+    <Compile Include="MOS_2_8_1\roStorySwap.cs" />
+    <Compile Include="MOS_2_8_1\searchField.cs" />
+    <Compile Include="MOS_2_8_1\software.cs" />
+    <Compile Include="MOS_2_8_1\story.cs" />
+    <Compile Include="MOS_2_8_1\storyBody.cs" />
+    <Compile Include="MOS_2_8_1\storyItem.cs" />
+    <Compile Include="MOS_2_8_1\u.cs" />
+    <Compile Include="MOS_2_8_2\b.cs" />
+    <Compile Include="MOS_2_8_2\defaultActiveX.cs" />
+    <Compile Include="MOS_2_8_2\description.cs" />
+    <Compile Include="MOS_2_8_2\element_source.cs" />
+    <Compile Include="MOS_2_8_2\element_target.cs" />
+    <Compile Include="MOS_2_8_2\heartbeat.cs" />
+    <Compile Include="MOS_2_8_2\i.cs" />
+    <Compile Include="MOS_2_8_2\item.cs" />
+    <Compile Include="MOS_2_8_2\list.cs" />
+    <Compile Include="MOS_2_8_2\listMachInfo.cs" />
+    <Compile Include="MOS_2_8_2\mos.cs" />
+    <Compile Include="MOS_2_8_2\mosAck.cs" />
+    <Compile Include="MOS_2_8_2\mosEnumerators.cs" />
+    <Compile Include="MOS_2_8_2\mosExternalMetadata.cs" />
+    <Compile Include="MOS_2_8_2\mosItemReplace.cs" />
+    <Compile Include="MOS_2_8_2\mosListAll.cs" />
+    <Compile Include="MOS_2_8_2\mosListSearchableSchema.cs" />
+    <Compile Include="MOS_2_8_2\mosObj.cs" />
+    <Compile Include="MOS_2_8_2\mosObjCreate.cs" />
+    <Compile Include="MOS_2_8_2\mosObjList.cs" />
+    <Compile Include="MOS_2_8_2\mosReqAll.cs" />
+    <Compile Include="MOS_2_8_2\mosReqObj.cs" />
+    <Compile Include="MOS_2_8_2\mosReqObjAction.cs" />
+    <Compile Include="MOS_2_8_2\mosReqObjList.cs" />
+    <Compile Include="MOS_2_8_2\mosReqSearchableSchema.cs" />
+    <Compile Include="MOS_2_8_2\ncsAck.cs" />
+    <Compile Include="MOS_2_8_2\ncsAppInfo.cs" />
+    <Compile Include="MOS_2_8_2\ncsItem.cs" />
+    <Compile Include="MOS_2_8_2\ncsItemRequest.cs" />
+    <Compile Include="MOS_2_8_2\ncsReqAppClose.cs" />
+    <Compile Include="MOS_2_8_2\ncsReqAppInfo.cs" />
+    <Compile Include="MOS_2_8_2\ncsReqAppMode.cs" />
+    <Compile Include="MOS_2_8_2\ncsStoryRequest.cs" />
+    <Compile Include="MOS_2_8_2\objPath.cs" />
+    <Compile Include="MOS_2_8_2\objPaths.cs" />
+    <Compile Include="MOS_2_8_2\objProxyPath.cs" />
+    <Compile Include="MOS_2_8_2\objType.cs" />
+    <Compile Include="MOS_2_8_2\p.cs" />
+    <Compile Include="MOS_2_8_2\pi.cs" />
+    <Compile Include="MOS_2_8_2\pkg.cs" />
+    <Compile Include="MOS_2_8_2\reqMachInfo.cs" />
+    <Compile Include="MOS_2_8_2\ro.cs" />
+    <Compile Include="MOS_2_8_2\roAck.cs" />
+    <Compile Include="MOS_2_8_2\roCreate.cs" />
+    <Compile Include="MOS_2_8_2\roCtrl.cs" />
+    <Compile Include="MOS_2_8_2\roDelete.cs" />
+    <Compile Include="MOS_2_8_2\roElementAction.cs" />
+    <Compile Include="MOS_2_8_2\roItemCue.cs" />
+    <Compile Include="MOS_2_8_2\roItemDelete.cs" />
+    <Compile Include="MOS_2_8_2\roItemInsert.cs" />
+    <Compile Include="MOS_2_8_2\roItemMoveMultiple.cs" />
+    <Compile Include="MOS_2_8_2\roItemReplace.cs" />
+    <Compile Include="MOS_2_8_2\roItemStat.cs" />
+    <Compile Include="MOS_2_8_2\roList.cs" />
+    <Compile Include="MOS_2_8_2\roListAll.cs" />
+    <Compile Include="MOS_2_8_2\roMetadataReplace.cs" />
+    <Compile Include="MOS_2_8_2\roReadyToAir.cs" />
+    <Compile Include="MOS_2_8_2\roReplace.cs" />
+    <Compile Include="MOS_2_8_2\roReq.cs" />
+    <Compile Include="MOS_2_8_2\roReqAll.cs" />
+    <Compile Include="MOS_2_8_2\roReqStoryAction.cs" />
+    <Compile Include="MOS_2_8_2\roStat.cs" />
+    <Compile Include="MOS_2_8_2\roStoryAppend.cs" />
+    <Compile Include="MOS_2_8_2\roStoryDelete.cs" />
+    <Compile Include="MOS_2_8_2\roStoryInsert.cs" />
+    <Compile Include="MOS_2_8_2\roStoryMove.cs" />
+    <Compile Include="MOS_2_8_2\roStoryMoveMultiple.cs" />
+    <Compile Include="MOS_2_8_2\roStoryReplace.cs" />
+    <Compile Include="MOS_2_8_2\roStorySend.cs" />
+    <Compile Include="MOS_2_8_2\roStorySwap.cs" />
+    <Compile Include="MOS_2_8_2\searchField.cs" />
+    <Compile Include="MOS_2_8_2\software.cs" />
+    <Compile Include="MOS_2_8_2\story.cs" />
+    <Compile Include="MOS_2_8_2\storyBody.cs" />
+    <Compile Include="MOS_2_8_2\storyItem.cs" />
+    <Compile Include="MOS_2_8_2\u.cs" />
+    <Compile Include="MOS_2_8_3\b.cs" />
+    <Compile Include="MOS_2_8_3\defaultActiveX.cs" />
+    <Compile Include="MOS_2_8_3\description.cs" />
+    <Compile Include="MOS_2_8_3\element_source.cs" />
+    <Compile Include="MOS_2_8_3\element_target.cs" />
+    <Compile Include="MOS_2_8_3\heartbeat.cs" />
+    <Compile Include="MOS_2_8_3\i.cs" />
+    <Compile Include="MOS_2_8_3\item.cs" />
+    <Compile Include="MOS_2_8_3\list.cs" />
+    <Compile Include="MOS_2_8_3\listMachInfo.cs" />
+    <Compile Include="MOS_2_8_3\mos.cs" />
+    <Compile Include="MOS_2_8_3\mosAck.cs" />
+    <Compile Include="MOS_2_8_3\mosEnumerators.cs" />
+    <Compile Include="MOS_2_8_3\mosExternalMetadata.cs" />
+    <Compile Include="MOS_2_8_3\mosItemReplace.cs" />
+    <Compile Include="MOS_2_8_3\mosListAll.cs" />
+    <Compile Include="MOS_2_8_3\mosListSearchableSchema.cs" />
+    <Compile Include="MOS_2_8_3\mosObj.cs" />
+    <Compile Include="MOS_2_8_3\mosObjCreate.cs" />
+    <Compile Include="MOS_2_8_3\mosObjList.cs" />
+    <Compile Include="MOS_2_8_3\mosReqAll.cs" />
+    <Compile Include="MOS_2_8_3\mosReqObj.cs" />
+    <Compile Include="MOS_2_8_3\mosReqObjAction.cs" />
+    <Compile Include="MOS_2_8_3\mosReqObjList.cs" />
+    <Compile Include="MOS_2_8_3\mosReqSearchableSchema.cs" />
+    <Compile Include="MOS_2_8_3\ncsAck.cs" />
+    <Compile Include="MOS_2_8_3\ncsAppInfo.cs" />
+    <Compile Include="MOS_2_8_3\ncsItem.cs" />
+    <Compile Include="MOS_2_8_3\ncsItemRequest.cs" />
+    <Compile Include="MOS_2_8_3\ncsReqAppClose.cs" />
+    <Compile Include="MOS_2_8_3\ncsReqAppInfo.cs" />
+    <Compile Include="MOS_2_8_3\ncsReqAppMode.cs" />
+    <Compile Include="MOS_2_8_3\ncsStoryRequest.cs" />
+    <Compile Include="MOS_2_8_3\objPath.cs" />
+    <Compile Include="MOS_2_8_3\objPaths.cs" />
+    <Compile Include="MOS_2_8_3\objProxyPath.cs" />
+    <Compile Include="MOS_2_8_3\objType.cs" />
+    <Compile Include="MOS_2_8_3\p.cs" />
+    <Compile Include="MOS_2_8_3\pi.cs" />
+    <Compile Include="MOS_2_8_3\pkg.cs" />
+    <Compile Include="MOS_2_8_3\reqMachInfo.cs" />
+    <Compile Include="MOS_2_8_3\ro.cs" />
+    <Compile Include="MOS_2_8_3\roAck.cs" />
+    <Compile Include="MOS_2_8_3\roCreate.cs" />
+    <Compile Include="MOS_2_8_3\roCtrl.cs" />
+    <Compile Include="MOS_2_8_3\roDelete.cs" />
+    <Compile Include="MOS_2_8_3\roElementAction.cs" />
+    <Compile Include="MOS_2_8_3\roElementStat.cs" />
+    <Compile Include="MOS_2_8_3\roItemCue.cs" />
+    <Compile Include="MOS_2_8_3\roItemDelete.cs" />
+    <Compile Include="MOS_2_8_3\roItemInsert.cs" />
+    <Compile Include="MOS_2_8_3\roItemMoveMultiple.cs" />
+    <Compile Include="MOS_2_8_3\roItemReplace.cs" />
+    <Compile Include="MOS_2_8_3\roItemStat.cs" />
+    <Compile Include="MOS_2_8_3\roList.cs" />
+    <Compile Include="MOS_2_8_3\roListAll.cs" />
+    <Compile Include="MOS_2_8_3\roMetadataReplace.cs" />
+    <Compile Include="MOS_2_8_3\roReadyToAir.cs" />
+    <Compile Include="MOS_2_8_3\roReplace.cs" />
+    <Compile Include="MOS_2_8_3\roReq.cs" />
+    <Compile Include="MOS_2_8_3\roReqAll.cs" />
+    <Compile Include="MOS_2_8_3\roReqStoryAction.cs" />
+    <Compile Include="MOS_2_8_3\roStat.cs" />
+    <Compile Include="MOS_2_8_3\roStoryAppend.cs" />
+    <Compile Include="MOS_2_8_3\roStoryDelete.cs" />
+    <Compile Include="MOS_2_8_3\roStoryInsert.cs" />
+    <Compile Include="MOS_2_8_3\roStoryMove.cs" />
+    <Compile Include="MOS_2_8_3\roStoryMoveMultiple.cs" />
+    <Compile Include="MOS_2_8_3\roStoryReplace.cs" />
+    <Compile Include="MOS_2_8_3\roStorySend.cs" />
+    <Compile Include="MOS_2_8_3\roStorySwap.cs" />
+    <Compile Include="MOS_2_8_3\searchField.cs" />
+    <Compile Include="MOS_2_8_3\software.cs" />
+    <Compile Include="MOS_2_8_3\story.cs" />
+    <Compile Include="MOS_2_8_3\storyBody.cs" />
+    <Compile Include="MOS_2_8_3\storyItem.cs" />
+    <Compile Include="MOS_2_8_3\u.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

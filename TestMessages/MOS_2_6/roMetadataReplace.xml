@@ -1,0 +1,24 @@
+<mos>
+<mosID>MOS26.MOS</mosID>
+<ncsID>MOS26.NCS</ncsID>
+<roMetadataReplace>
+<roID>DEMOENPS50VPC;P_OSM\W;AADC7235-007A-4317-BE112095DF74356A</roID>
+<roSlug>OSM Dev</roSlug>
+<roEdStart>2037-05-16T14:00:00</roEdStart>
+<roEdDur>00:30:00</roEdDur>
+<mosExternalMetadata>
+<mosScope>PLAYLIST</mosScope>
+<mosSchema>http://DEMOENPS50VPC/schema/enpsro.dtd</mosSchema>
+<mosPayload>
+<EndTime>2037-05-16T14:30:00</EndTime>
+<RundownDuration>30:00</RundownDuration>
+<StartTime>2037-05-16T14:00:00</StartTime>
+<osmRODistribution DisplayValue="OSMIP;OSMClient">2;21</osmRODistribution>
+<MOSroBlock>MOS.Server.rdm1.bnc.ap.mos;SNAPFEED.SNAPFEEDDEMO314VPC.MOS</MOSroBlock>
+<MOSroStorySend>MOS25.MOS;MOS26.MOS;MOS28.MOS;MOS281.MOS</MOSroStorySend>
+<ENPSItemType>2</ENPSItemType>
+<roLayout>PageNum_450|RowStatus_150|Slug_1200|SegStatus_210|Segment_915|MOSSlugs_1215|MOSStatus_1035|MOSIDs_1845|Break_600|Presenter_1005|Approved_600|Estimated_840|Actual_720|FrontTime_1005|BackTime_1005|CumeTime_1005|ModBy_1200</roLayout>
+</mosPayload>
+</mosExternalMetadata>
+</roMetadataReplace>
+</mos>

@@ -1,0 +1,80 @@
+<mos>
+<mosID>MOS281.MOS</mosID>
+<ncsID>MOS281.NCS</ncsID>
+<roCreate>
+<roID>DEMOENPS50VPC;P_OSM\W;AADC7235-007A-4317-BE112095DF74356A</roID>
+<roSlug>OSM Dev</roSlug>
+<roEdStart>2037-05-16T14:00:00</roEdStart>
+<roEdDur>00:30:00</roEdDur>
+<mosExternalMetadata>
+<mosScope>PLAYLIST</mosScope>
+<mosSchema>http://DEMOENPS50VPC/schema/enpsro.dtd</mosSchema>
+<mosPayload>
+<EndTime>2037-05-16T14:30:00</EndTime>
+<RundownDuration>30:00</RundownDuration>
+<StartTime>2037-05-16T14:00:00</StartTime>
+<osmRODistribution DisplayValue="OSMIP">2</osmRODistribution>
+<MOSroBlock>MOS.Server.rdm1.bnc.ap.mos;SNAPFEED.SNAPFEEDDEMO314VPC.MOS</MOSroBlock>
+<MOSroStorySend>MOS25.MOS;MOS26.MOS;MOS28.MOS;MOS281.MOS</MOSroStorySend>
+<ENPSItemType>2</ENPSItemType>
+<roLayout>PageNum_450|RowStatus_150|Slug_1200|SegStatus_210|Segment_915|MOSSlugs_1215|MOSStatus_1035|MOSIDs_1845|Break_600|Presenter_1005|Approved_600|Estimated_840|Actual_720|FrontTime_1005|BackTime_1005|CumeTime_1005|ModBy_1200</roLayout>
+</mosPayload>
+</mosExternalMetadata>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;B703C725-10F6-4883-805BAD0C93B54D03</storyID>
+<storySlug>MOS Server Master Countdown</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;79549DCB-1F32-485D-8E65C4FED9F1D007</storyID>
+<storySlug>MOS Server Countdowns</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;6AB5CE80-6EF9-41F0-AB08AF0D02643A13</storyID>
+<storySlug>MOS Server Master Countdown</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;60F2610C-6006-47C3-88026D4871B87B15</storyID>
+<storySlug>MOS Server Countdowns</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;EB56E7FD-EE58-48D3-AC1C498325868AB4</storyID>
+<storySlug>MOS Server Master Countdown</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;997CBDAC-B0ED-4935-AA7A574AF3899E5E</storyID>
+<storySlug>MOS Server Master Countdown</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;ECA0B141-AAD1-45D0-93790CE45094D4A7</storyID>
+<storySlug>MOS Server Master Countdown</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;7ABF108E-CF47-4CAB-8759DA3F4E6A48F0</storyID>
+<storySlug>MOS Server Countdowns</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;A4A58DB8-2CC9-4A60-AA34781A568A28BC</storyID>
+<storySlug>MOS Server Countdowns</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;FA72A68D-6DC8-4AB2-864FD28014F227EF</storyID>
+<storySlug>MOS Server Countdowns</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;F821D307-2E07-4280-A81DABABF6E1365F</storyID>
+<storySlug>MOS Server Countdowns</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;5F24658C-27A9-424B-AA1CEFFC38E94ACB</storyID>
+<storySlug>MOS Server Countdowns</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;D57574BF-0F40-461F-9825D3F96F775758</storyID>
+<storySlug>MOS Server Master Countdown</storySlug>
+</story>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;C0533E34-0993-4383-BCB2FF083F97BBAD</storyID>
+<storySlug>MOS Server Master Countdown</storySlug>
+</story>
+</roCreate>
+</mos>

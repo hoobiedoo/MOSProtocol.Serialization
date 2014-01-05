@@ -1,0 +1,17 @@
+<mos>
+<mosID>MOS282.MOS</mosID>
+<ncsID>MOS282.NCS</ncsID>
+<messageID>18</messageID>
+<roElementAction operation="INSERT"><roID>DEMOENPS50VPC;P_OSM\W;AADC7235-007A-4317-BE112095DF74356A</roID>
+<element_target>
+<storyID></storyID>
+</element_target>
+<element_source>
+<story>
+<storyID>DEMOENPS50VPC;P_OSM\W\R_AADC7235-007A-4317-BE112095DF74356A;12340810-B60C-4801-BE6657A420EEC4EF</storyID>
+<storySlug>Append</storySlug>
+<storyNum></storyNum>
+</story>
+</element_source>
+</roElementAction>
+</mos>

@@ -1,0 +1,12 @@
+<mos>
+<mosID>MOS283.MOS</mosID>
+<ncsID>MOS283.NCS</ncsID>
+<messageID>00000008</messageID>
+<mosReqObjList>
+<queryID>8CB73A63A2D94607A0118AE179213AC0</queryID>
+<listReturnStart>1</listReturnStart>
+<listReturnEnd>29</listReturnEnd>
+<generalSearch>mySearch</generalSearch>
+<mosSchema>http://MOSA4.com/mos/supported_schemas/MOSAXML2.08</mosSchema>
+</mosReqObjList>
+</mos>

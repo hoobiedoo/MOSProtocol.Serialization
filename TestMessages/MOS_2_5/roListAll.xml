@@ -1,0 +1,22 @@
+<mos>
+<mosID>MOS25.MOS</mosID>
+<ncsID>MOS25.NCS</ncsID>
+<roListAll>
+<roID>DEMOENPS50VPC;P_OSM\W;AADC7235-007A-4317-BE112095DF74356A</roID>
+<roSlug>OSM Dev change</roSlug>
+<roChannel></roChannel>
+<roEdStart>2037-05-16T14:00:00</roEdStart>
+<roEdDur>00:30:00</roEdDur>
+<roTrigger></roTrigger>
+<roMacroIn></roMacroIn>
+<roMacroOut></roMacroOut>
+<roID>DEMOENPS50VPC;P_OSM\W;6EEF52CC-59E2-4B8E-BABB7544CD07D7F1</roID>
+<roSlug>OSM Dev 2</roSlug>
+<roChannel></roChannel>
+<roEdStart>2037-05-16T14:00:00</roEdStart>
+<roEdDur>00:30:00</roEdDur>
+<roTrigger></roTrigger>
+<roMacroIn></roMacroIn>
+<roMacroOut></roMacroOut>
+</roListAll>
+</mos>
