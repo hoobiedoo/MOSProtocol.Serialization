@@ -1,4 +1,9 @@
-﻿
+//------------------------------------------------------------------------------
+//     2/25/2011
+//     This code was authored by Robb J. Regan 
+//     
+//     It cotains helper methods for  deserialization and serialization XML. 
+//------------------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
 using System.Linq;
