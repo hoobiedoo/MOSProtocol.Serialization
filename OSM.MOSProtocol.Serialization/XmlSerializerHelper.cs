@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------------
-//     2/25/2011
+//     6/20/2009
 //     This code was authored by Robb J. Regan 
 //     
 //     It cotains helper methods for  deserialization and serialization XML. 
